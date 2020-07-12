@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJla30c9bf90e7daa7d58dfe52306530e38"/>
+  <meta charset="utf-8">
+  <title>Solar Turing</title>
+  <meta name="generator" content="Google Web Designer 8.0.3.0603">
+  <style type="text/css" id="gwd-text-style">p {
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+}</style>
+  <style type="text/css">html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+body {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 1400px;
+    -webkit-perspective: 1400px;
+    -moz-perspective: 1400px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+}
+.gwd-label-1w8i {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 200px;
+    top: 33px;
+}
+.gwd-label-1exu {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 200px;
+    top: 59px;
+}
+.gwd-label-11e1 {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 200px;
+    top: 85px;
+}
+.gwd-label-ursv {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 200px;
+    top: 111px;
+}
+.gwd-label-sto2 {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 22px;
+    width: 200px;
+    top: 131px;
+}
+.gwd-button-4koa {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    top: 307px;
+}
+.gwd-label-10bg {
+    position: absolute;
+    height: 20px;
+    width: 134px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 114px;
+    top: 154px;
+}
+.gwd-input-1ry3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    background-color: rgb(12, 12, 12);
+    left: 306px;
+    top: 266px;
+}
+.gwd-input-1hyn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    background-color: rgb(12, 12, 12);
+    left: 306px;
+    top: 186px;
+}
+.gwd-label-1mzp {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 250px;
+    top: 269px;
+}
+.gwd-label-10gu {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 250px;
+    top: 209px;
+}
+.gwd-label-1e0i {
+    position: absolute;
+    height: 20px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 19px;
+    width: 250px;
+    top: 189px;
+}
+.gwd-input-1682 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(255, 255, 255);
+    background-image: none;
+    background-color: rgb(12, 12, 12);
+    left: 306px;
+    top: 206px;
+}
+.gwd-input-cimm {
+    position: absolute;
+    height: 20px;
+    width: 85.58px;
+    left: 241px;
+    top: 33px;
+}
+.gwd-input-3aid {
+    position: absolute;
+    height: 20px;
+    width: 85.58px;
+    left: 241px;
+    top: 59px;
+}
+.gwd-input-1bna {
+    position: absolute;
+    height: 20px;
+    width: 85.58px;
+    left: 241px;
+    top: 85px;
+}
+.gwd-input-nh3i {
+    position: absolute;
+    height: 20px;
+    width: 85.58px;
+    left: 241px;
+    top: 111px;
+}
+.gwd-span-jseq {
+    position: absolute;
+    height: 27px;
+    transform-origin: 6.18881px 6.875px 0px;
+    -webkit-transform-origin: 6.18881px 6.875px 0px;
+    -moz-transform-origin: 6.18881px 6.875px 0px;
+    width: 316px;
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    left: 19px;
+    top: 351px;
+}
+.gwd-a-1tig {
+    color: rgb(255, 255, 255);
+}
+.gwd-input-16aj {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 306px;
+    top: 226px;
+}
+.gwd-label-1tbx {
+    position: absolute;
+    height: 20px;
+    left: 19px;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    top: 229px;
+}
+.gwd-label-16ll {
+    position: absolute;
+    height: 20px;
+    left: 19px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    top: 249px;
+}
+.gwd-input-1t9m {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 306px;
+    top: 246px;
+}</style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+  <script type="text/javascript" gwd-events="support">var gwd=gwd||{};gwd.actions=gwd.actions||{};gwd.actions.events=gwd.actions.events||{};gwd.actions.events.getElementById=function(id){var element=document.getElementById(id);if(!element){var pageDeck=document.querySelector("gwd-pagedeck");if(pageDeck){if(typeof pageDeck.getElementById==="function"){element=pageDeck.getElementById(id)}}}if(!element){switch(id){case"document.body":element=document.body;break;case"document":element=document;break;case"window":element=window;break;default:break}}return element};gwd.actions.events.addHandler=function(eventTarget,eventName,eventHandler,useCapture){var targetElement=gwd.actions.events.getElementById(eventTarget);if(targetElement){targetElement.addEventListener(eventName,eventHandler,useCapture)}};gwd.actions.events.removeHandler=function(eventTarget,eventName,eventHandler,useCapture){var targetElement=gwd.actions.events.getElementById(eventTarget);if(targetElement){targetElement.removeEventListener(eventName,eventHandler,useCapture)}};gwd.actions.events.setInlineStyle=function(id,styles){var element=gwd.actions.events.getElementById(id);if(!element||!styles){return}var transitionProperty=element.style.transition!==undefined?"transition":"-webkit-transition";var prevTransition=element.style[transitionProperty];var splitStyles=styles.split(/\s*;\s*/);var nameValue;splitStyles.forEach(function(splitStyle){if(splitStyle){var regex=new RegExp("[:](?![/]{2})");nameValue=splitStyle.split(regex);nameValue[1]=nameValue[1]?nameValue[1].trim():null;if(!(nameValue[0]&&nameValue[1])){return}element.style.setProperty(nameValue[0],nameValue[1])}});function restoreTransition(event){var el=event.target;el.style.transition=prevTransition;el.removeEventListener(event.type,restoreTransition,false)}element.addEventListener("transitionend",restoreTransition,false);element.addEventListener("webkitTransitionEnd",restoreTransition,false)}</script>
+  <script type="text/javascript" gwd-events="handlers">
+    window.gwd = window.gwd || {};
+    gwd.download = function(event) {
+      var height = parseFloat(document.getElementById("flength").value);
+      var width = parseFloat(document.getElementById("width").value);
+      var fsize = parseFloat(document.getElementById("fsize").value);
+      var ref = parseFloat(document.getElementById("ref").value);
+      var f1 = fsize / 2.0; // fcous 1
+      var kangle = Math.asin(1.0 / ref); //criticle angle
+      var pn = Math.floor((((width / 2.0) - f1) / fsize)); //no. of prism
+      var pospn = pn; // possible number of prisms based on material. will change in code. will be <= pn
+      var prism = []; //will store full set of co ordinates in cms
+      var i;
+      for (i = 0; i < pn; i++) {
+        var vertices = {
+          x1: i * fsize + f1,
+          y1: 0,
+          x2: i * fsize + f1,
+          y2: 0,
+          x3: i * fsize + f1 + fsize,
+          y3: 0,
+          x4: i * fsize + f1 + fsize,
+          y4: 0,
+          x5: i * fsize + f1,
+          y5: 0
+        };
+        prism[i] = vertices;
+      }
+      var flg = 0; // flag, 0=refraction , 1 = first reflection, 2 = onward reflactions, 3 = reflection at level, 4 = reflection underneath , 5 = stop
+      for (i = 0; i < pn && flg != 5; i++) {
+        var theta3 = 0;
+        var theta1 = 0;
+        if (flg == 0) {
+          var h, d;
+          h = height;
+          d = prism[i].x3;
+          theta3 = Math.acos((-1 * f1 * h + d * Math.sqrt(d * d + h * h - f1 * f1)) / (h * h + d * d));
+          theta1 = Math.atan((Math.cos(theta3)) / (ref - Math.sin(theta3)));
+          prism[i].y2 = prism[i].y1 + fsize * Math.tan(theta1);
+          //switch or not
+          var altH, altD;
+          altH = height;
+          altD = prism[i].x1;
+          var altTheta3 = Math.acos((f1 * altH + altD * Math.sqrt(altD * altD + altH * altH - f1 * f1)) / (altH * altH + altD * altD));
+          var altTheta2 = Math.asin((Math.sin(altTheta3)) / ref);
+          if (theta1 > altTheta2) {
+            prism[i].y2 = 0;
+            i = i - 1;
+            flg = 1;
+          }
+        } else if (flg == 1) {
+          var h, d;
+          h = height - prism[i - 1].y3;
+          d = prism[i - 1].x3;
+          theta3 = Math.acos((f1 * h + d * Math.sqrt(d * d + h * h - f1 * f1)) / (h * h + d * d));
+          theta1 = (Math.acos((-1 * Math.sin(theta3)) / ref)) / 2;
+          prism[i].y1 = prism[i - 1].y3 + fsize / Math.tan(2 * theta1);
+          prism[i].y3 = prism[i].y1;
+          prism[i].y4 = prism[i].y1;
+          prism[i].y5 = prism[i].y1;
+          prism[i].y2 = prism[i].y1 + fsize * Math.tan(theta1);
+          flg = 2;
+          if (theta1 < kangle && i < pospn) {
+            pospn = i;
+            flg = 5;
+          }
+        } else if (flg == 2) {
+          var fh, fd;
+          var sh, sd;
+          fh = height - prism[i - 1].y3;
+          fd = prism[i - 1].x3;
+          var firstTheta = Math.acos((f1 * fh + fd * Math.sqrt(fd * fd + fh * fh - f1 * f1)) / (fh * fh + fd * fd));
+          sh = height - prism[i - 1].y2;
+          sd = prism[i - 1].x2;
+          var secondTheta = Math.acos((f1 * sh + sd * Math.sqrt(sd * sd + sh * sh - f1 * f1)) / (sh * sh + sd * sd));
+          if (sh < f1) {
+            flg = 3;
+            i = i - 1;
+            continue;
+          }
+          if (firstTheta < secondTheta) theta3 = firstTheta;
+          else theta3 = secondTheta;
+          theta1 = (Math.acos((-1 * Math.sin(theta3)) / ref)) / 2;
+          if (firstTheta < secondTheta) prism[i].y1 = prism[i - 1].y3 + fsize / Math.tan(2 * theta1);
+          else prism[i].y1 = prism[i - 1].y2 - fsize * Math.tan(theta3) + fsize / Math.tan(2 * theta1);
+          prism[i].y3 = prism[i].y1;
+          prism[i].y4 = prism[i].y1;
+          prism[i].y5 = prism[i].y1;
+          prism[i].y2 = prism[i].y1 + fsize * Math.tan(theta1);
+          if (theta1 < kangle && i < pospn) {
+            pospn = i;
+            flg = 5;
+          }
+        } else if (flg == 3) {
+          var h, d;
+          h = height - prism[i - 1].y2;
+          if (h < 0) {
+            flg = 4;
+            i = i - 1;
+            continue;
+          }
+          d = prism[i - 1].x2;
+          theta3 = Math.acos((1 * f1 * h + d * Math.sqrt(d * d + h * h - f1 * f1)) / (h * h + d * d));
+          theta1 = (Math.acos((Math.sin(theta3)) / ref)) / 2;
+          prism[i].y1 = prism[i - 1].y2 + fsize * Math.tan(theta3);
+          prism[i].y3 = prism[i].y1;
+          prism[i].y2 = prism[i].y1 + fsize * Math.tan(theta1);
+          prism[i].y4 = prism[i].y1 - (fsize / Math.tan(2 * theta1));
+          prism[i].y5 = prism[i].y4;
+          if (theta1 < kangle && i < pospn) {
+            pospn = i;
+            flg = 5;
+          }
+        } else if (flg == 4) {
+          var h, d;
+          h = prism[i - 1].y2 - height;
+          d = prism[i - 1].x2;
+          theta3 = Math.acos((-1 * f1 * h + d * Math.sqrt(d * d + h * h - f1 * f1)) / (h * h + d * d));
+          theta1 = (Math.acos((Math.sin(theta3)) / ref)) / 2;
+          prism[i].y1 = prism[i - 1].y2 + fsize * Math.tan(theta3) + fsize / Math.tan(2 * theta1);
+          prism[i].y3 = prism[i].y1;
+          prism[i].y2 = prism[i].y1 + fsize * Math.tan(theta1);
+          prism[i].y4 = prism[i].y1 - (fsize / Math.tan(2 * theta1));
+          prism[i].y5 = prism[i].y4;
+          if (theta1 < kangle && i < pospn) {
+            pospn = i;
+            flg = 5;
+          }
+        }
+      }
+      for (i = 0; i < (pn - pospn); i++) {
+        prism.pop();
+      }
+      //pure gold calculations end here
+      //csv data
+      if (document.getElementById("checkbox_4").checked) {
+        var str = "prism,x1,y1,x2,y2,x3,y3,x4,y4,x5,y5";
+        for (i = 0; i < prism.length; i++) {
+          str = str + "\n" + (i + 1) + "," + prism[i].x1 + "," + prism[i].y1 + "," + prism[i].x2 + "," + prism[i].y2 + "," + prism[i].x3 + "," + prism[i].y3 + "," + prism[i].x4 + "," + prism[i].y4 + "," + prism[i].x5 + "," + prism[i].y5;
+        }
+        var csv = document.createElement("a");
+        csv.href = 'data:text/csv;charset=utf-8,' + encodeURI(str);
+        csv.target = '_blank';
+        csv.download = 'data.csv';
+        csv.click();
+      }
+      // simulation
+      if (document.getElementById("checkbox_3").checked) {
+        var simDpi = 72;
+        var simPpcm = simDpi / 2.54; //pixel per cm
+        var simMiny = 0;
+        var simpri = [];
+        for (i = 0; i < prism.length; i++) {
+          var vertices = {
+            x1: prism[i].x1 * simPpcm,
+            y1: prism[i].y1 * simPpcm,
+            x2: prism[i].x2 * simPpcm,
+            y2: prism[i].y2 * simPpcm,
+            x3: prism[i].x3 * simPpcm,
+            y3: prism[i].y3 * simPpcm,
+            x4: prism[i].x4 * simPpcm,
+            y4: prism[i].y4 * simPpcm,
+            x5: prism[i].x5 * simPpcm,
+            y5: prism[i].y5 * simPpcm,
+          };
+          simpri[i] = vertices;
+          if (simpri[i].y5 < simMiny) simMiny = simpri[i].y5;
+        }
+        var str1 = "{\"version\":2,\"objs\":[";
+        for (i = 0; i < prism.length; i++) {
+          str1 = str1 + "{\"type\":\"refractor\",\"path\":[{\"x\":" + simpri[i].x1 + ",\"y\":" + simpri[i].y1 + ",\"arc\":false}," + "{\"x\":" + simpri[i].x2 + ",\"y\":" + simpri[i].y2 + ",\"arc\":false}," + "{\"x\":" + simpri[i].x3 + ",\"y\":" + simpri[i].y3 + ",\"arc\":false}," + "{\"x\":" + simpri[i].x4 + ",\"y\":" + simpri[i].y4 + ",\"arc\":false}," + "{\"x\":" + simpri[i].x5 + ",\"y\":" + simpri[i].y5 + ",\"arc\":false}" + "],\"notDone\":false,\"p\":" + ref + "},";
+        }
+        for (i = 0; i < prism.length; i++) {
+          str1 = str1 + "{\"type\":\"refractor\",\"path\":[{\"x\":" + -1 * simpri[i].x1 + ",\"y\":" + simpri[i].y1 + ",\"arc\":false}," + "{\"x\":" + -1 * simpri[i].x2 + ",\"y\":" + simpri[i].y2 + ",\"arc\":false}," + "{\"x\":" + -1 * simpri[i].x3 + ",\"y\":" + simpri[i].y3 + ",\"arc\":false}," + "{\"x\":" + -1 * simpri[i].x4 + ",\"y\":" + simpri[i].y4 + ",\"arc\":false}," + "{\"x\":" + -1 * simpri[i].x5 + ",\"y\":" + simpri[i].y5 + ",\"arc\":false}" + "],\"notDone\":false,\"p\":" + ref + "},";
+        }
+        str1 = str1 + "{\"type\":\"parallel\",\"p1\":{\"type\":1,\"x\":" + simpri[simpri.length - 1].x3 + ",\"y\":" + (simMiny - 100) + ",\"exist\":true},\"p2\":{\"type\":1,\"x\":" + -1 * simpri[simpri.length - 1].x3 + ",\"y\":" + (simMiny - 100) + ",\"exist\":true},\"p\":0.5},{\"type\":\"blackline\",\"p1\":{\"type\":1,\"x\":" + f1 * simPpcm + ",\"y\":" + (height - f1) * simPpcm + ",\"exist\":true},\"p2\":{\"type\":1,\"x\":" + -1 * f1 * simPpcm + ",\"y\":" + (height - f1) * simPpcm + ",\"exist\":true}},{\"type\":\"blackline\",\"p1\":{\"type\":1,\"x\":" + f1 * simPpcm + ",\"y\":" + (height - f1) * simPpcm + ",\"exist\":true},\"p2\":{\"type\":1,\"x\":" + f1 * simPpcm + ",\"y\":" + (height + f1) * simPpcm + ",\"exist\":true}},{\"type\":\"blackline\",\"p1\":{\"type\":1,\"x\":" + -1 * f1 * simPpcm + ",\"y\":" + (height - f1) * simPpcm + ",\"exist\":true},\"p2\":{\"type\":1,\"x\":" + -1 * f1 * simPpcm + ",\"y\":" + (height + f1) * simPpcm + ",\"exist\":true}}";
+        str1 = str1 + "],\"mode\":\"light\",\"rayDensity_light\":0.049787068367863944,\"rayDensity_images\":1,\"observer\":null,\"origin\":{\"x\":689,\"y\":218},\"scale\":0.25}";
+        var sim = document.createElement("a");
+        sim.href = 'data:text/csv;charset=utf-8,' + encodeURI(str1);
+        sim.target = '_blank';
+        sim.download = 'sim.json';
+        sim.click();
+      }
+      // ruby script dome
+      if (document.getElementById("checkbox_5").checked) {
+        var rubystr = "model = Sketchup.active_model\r\nentities = model.active_entities";
+        for (i = 0; i < prism.length; i++) {
+          if ((prism[i].y1 - prism[i].y5) < 0.0026) {
+            rubystr = rubystr + "\r\nface = entities.add_face([\"" + prism[i].x1 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + prism[i].x2 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + prism[i].x3 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l])";
+          } else {
+            rubystr = rubystr + "\r\nface = entities.add_face([\"" + prism[i].x1 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + prism[i].x2 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + prism[i].x3 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l],[\"" + prism[i].x4 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y4 + "cm\".to_l],[\"" + prism[i].x5 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y5 + "cm\".to_l])";
+          }
+          rubystr = rubystr + "\r\nedge = entities.add_circle([\"" + 0 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[0,0,1],\"" + prism[i].x3 + "cm\".to_l)";
+          rubystr = rubystr + "\r\nface.followme(edge)";
+        }
+        rubystr = rubystr + "\r\nface = entities.add_face(entities.add_circle([\"" + 0 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * height + "cm\".to_l],[0,1,0],\"" + f1 + "cm\".to_l))";
+        rubystr = rubystr + "\r\nedge = entities.add_circle([\"" + 0 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * height + "cm\".to_l],[0,0,1],\"" + f1 + "cm\".to_l)";
+        rubystr = rubystr + "\r\nface.followme(edge)";
+        var ruby = document.createElement("a");
+        ruby.href = 'data:text/csv;charset=utf-8,' + encodeURI(rubystr);
+        ruby.target = '_blank';
+        ruby.download = 'ruby dome.txt';
+        ruby.click();
+      }
+      // ruby script trough
+      if (document.getElementById("checkbox_6").checked) {
+        var rubystr1 = "model = Sketchup.active_model\r\nentities = model.active_entities";
+        rubystr1 = rubystr1 + "\r\nlength = UI.inputbox(['length(cm)'],[100])";
+        for (i = 0; i < prism.length; i++) {
+          if ((prism[i].y1 - prism[i].y5) < 0.0026) {
+            rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + prism[i].x1 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + prism[i].x2 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + prism[i].x3 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l])";
+            rubystr1 = rubystr1 + "\r\nface.pushpull((length[0].to_s+\"cm\").to_l,false)";
+          } else {
+            rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + prism[i].x1 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + prism[i].x2 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + prism[i].x3 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l],[\"" + prism[i].x4 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y4 + "cm\".to_l],[\"" + prism[i].x5 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y5 + "cm\".to_l])";
+            rubystr1 = rubystr1 + "\r\nface.pushpull((length[0].to_s+\"cm\").to_l,false)";
+          }
+        }
+        for (i = 0; i < prism.length; i++) {
+          if ((prism[i].y1 - prism[i].y5) < 0.0026) {
+            rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + -1 * prism[i].x1 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + -1 * prism[i].x2 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + -1 * prism[i].x3 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l])";
+            rubystr1 = rubystr1 + "\r\nface.pushpull(-1*(length[0].to_s+\"cm\").to_l,false)";
+          } else {
+            rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + -1 * prism[i].x1 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + -1 * prism[i].x2 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + -1 * prism[i].x3 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l],[\"" + -1 * prism[i].x4 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y4 + "cm\".to_l],[\"" + -1 * prism[i].x5 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * prism[i].y5 + "cm\".to_l])";
+            rubystr1 = rubystr1 + "\r\nface.pushpull(-1*(length[0].to_s+\"cm\").to_l,false)";
+          }
+        }
+        //focus
+        rubystr1 = rubystr1 + "\r\nface = entities.add_face(entities.add_circle([\"" + 0 + "cm\".to_l,\"" + 0 + "cm\".to_l ,\"" + -1 * height + "cm\".to_l],[0,1,0],\"" + f1 + "cm\".to_l))";
+        rubystr1 = rubystr1 + "\r\nface.pushpull(-1*(length[0].to_s+\"cm\").to_l ,false)";
+        //side wall
+        rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + 0 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + 1 + "cm\".to_l],[\"" + prism[0].x1 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + 1 + "cm\".to_l],";
+        for (i = 0; i < prism.length - 1; i++) {
+          if (prism[i].y4 < prism[i + 1].y5) rubystr1 = rubystr1 + "[\"" + prism[i].x4 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[i].y4 + 1) + "cm\".to_l],";
+          else rubystr1 = rubystr1 + "[\"" + prism[i + 1].x5 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[i + 1].y5 + 1) + "cm\".to_l],";
+        }
+        rubystr1 = rubystr1 + "[\"" + prism[prism.length - 1].x4 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[prism.length - 1].y4 + 1) + "cm\".to_l],[\"" + (prism[prism.length - 1].x4 + 1) + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[prism.length - 1].y4 + 1) + "cm\".to_l],";
+        rubystr1 = rubystr1 + "[\"" + (prism[prism.length - 1].x3 + 1) + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[prism.length - 1].y3 - 1) + "cm\".to_l],[\"" + prism[prism.length - 1].x3 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[prism.length - 1].y3 - 1) + "cm\".to_l],";
+        for (i = prism.length - 1; i >= 0; i--) {
+          rubystr1 = rubystr1 + "[\"" + prism[i].x2 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[i].y2 - 1) + "cm\".to_l],";
+        }
+        rubystr1 = rubystr1 + "[\"" + 0 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + (-1 * prism[0].y2 - 1) + "cm\".to_l]";
+        rubystr1 = rubystr1 + ")";
+        for (i = 0; i < prism.length; i++) {
+          if ((prism[i].y1 - prism[i].y5) < 0.0026) {
+            rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + prism[i].x1 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + prism[i].x2 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + prism[i].x3 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l])";
+            rubystr1 = rubystr1 + "\r\nface.erase!";
+          } else {
+            rubystr1 = rubystr1 + "\r\nface = entities.add_face([\"" + prism[i].x1 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y1 + "cm\".to_l],[\"" + prism[i].x2 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y2 + "cm\".to_l],[\"" + prism[i].x3 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y3 + "cm\".to_l],[\"" + prism[i].x4 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y4 + "cm\".to_l],[\"" + prism[i].x5 + "cm\".to_l,\"" + 10 + "cm\".to_l ,\"" + -1 * prism[i].y5 + "cm\".to_l])";
+            rubystr1 = rubystr1 + "\r\nface.erase!";
+          }
+        }
+        var ruby1 = document.createElement("a");
+        ruby1.href = 'data:text/csv;charset=utf-8,' + encodeURI(rubystr1);
+        ruby1.target = '_blank';
+        ruby1.download = 'ruby trough.txt';
+        ruby1.click();
+      }
+      // a4 plans
+      if (document.getElementById("checkbox_2").checked) {
+        //prisms printing
+        var pixpri = [];
+        var dpi = 72;
+        var ppcm = dpi / 2.54; //pixel per cm
+        var miny = 0;
+        for (i = 0; i < prism.length; i++) {
+          var vertices = {
+            x1: prism[i].x1 * ppcm,
+            y1: prism[i].y1 * ppcm,
+            x2: prism[i].x2 * ppcm,
+            y2: prism[i].y2 * ppcm,
+            x3: prism[i].x3 * ppcm,
+            y3: prism[i].y3 * ppcm,
+            x4: prism[i].x4 * ppcm,
+            y4: prism[i].y4 * ppcm,
+            x5: prism[i].x5 * ppcm,
+            y5: prism[i].y5 * ppcm
+          };
+          pixpri[i] = vertices;
+          if (pixpri[i].y5 < miny) miny = pixpri[i].y5;
+        }
+        for (i = 0; i < pixpri.length; i++) {
+          pixpri[i].y1 = pixpri[i].y1 + (-1 * miny);
+          pixpri[i].y2 = pixpri[i].y2 + (-1 * miny);
+          pixpri[i].y3 = pixpri[i].y3 + (-1 * miny);
+          pixpri[i].y4 = pixpri[i].y4 + (-1 * miny);
+          pixpri[i].y5 = pixpri[i].y5 + (-1 * miny);
+        }
+        //prism sections
+        var pageno = 0;
+        var prismno = 0;
+        var pdf1 = new jsPDF('l', 'cm', [27, 19]);
+        while (prismno < pixpri.length) {
+          var can1 = document.createElement("CANVAS");
+          can1.id = "can" + pageno;
+          can1.width = 27 * ppcm;
+          can1.height = 19 * ppcm;
+          can1.style = "border:1px solid #d3d3d3;";
+          var ctx1 = can1.getContext("2d");
+          ctx1.fillStyle = "white";
+          ctx1.fillRect(0, 0, can1.width, can1.height);
+          var prismsInPage = 0;
+          var pagex1 = pixpri[prismno].x1,
+            pagex3 = pixpri[prismno].x3,
+            pagey2 = pixpri[prismno].y2,
+            pagey1 = pixpri[prismno].y5;
+          while ((prismno + prismsInPage) < pixpri.length && (pagey2 - pixpri[prismno + prismsInPage].y5) < can1.height && (pixpri[prismno + prismsInPage].y2 - pagey1) < can1.height && (pixpri[prismno + prismsInPage].x3 - pagex1) < can1.width) {
+            if ((prismno + prismsInPage) < (pixpri.length - 1) && pixpri[prismno + prismsInPage + 1].y5 < pixpri[prismno + prismsInPage].y5 && (pagey2 - pixpri[prismno + prismsInPage + 1].y5) < can1.height) {
+              pagey1 = pixpri[prismno + prismsInPage + 1].y5;
+            } else if ((prismno + prismsInPage) < (pixpri.length - 1) && pixpri[prismno + prismsInPage + 1].y5 < pixpri[prismno + prismsInPage].y5 && (pagey2 - pixpri[prismno + prismsInPage + 1].y5) > can1.height) {
+              break;
+            }
+            if ((prismno + prismsInPage) < (pixpri.length - 1) && pixpri[prismno + prismsInPage + 1].y5 > pixpri[prismno + prismsInPage].y5 && (pixpri[prismno + prismsInPage + 1].y5 - pagey1) < can1.height) {
+              pagey2 = pixpri[prismno + prismsInPage + 1].y5;
+            } else if ((prismno + prismsInPage) < (pixpri.length - 1) && pixpri[prismno + prismsInPage + 1].y5 > pixpri[prismno + prismsInPage].y5 && (pixpri[prismno + prismsInPage + 1].y5 - pagey1) > can1.height) {
+              break;
+            }
+            if (pixpri[prismno + prismsInPage].y5 < pagey1) pagey1 = pixpri[prismno + prismsInPage].y5;
+            if (pixpri[prismno + prismsInPage].y2 > pagey2) pagey2 = pixpri[prismno + prismsInPage].y2;
+            if (pixpri[prismno + prismsInPage].x1 < pagex1) pagex1 = pixpri[prismno + prismsInPage].x1;
+            if (pixpri[prismno + prismsInPage].x3 > pagex3) pagex3 = pixpri[prismno + prismsInPage].x3;
+            prismsInPage++;
+          }
+          for (i = 0; i < prismsInPage; i++) {
+            ctx1.moveTo(pixpri[prismno].x1 - pagex1, pixpri[prismno].y1 - pagey1);
+            ctx1.lineTo(pixpri[prismno].x2 - pagex1, pixpri[prismno].y2 - pagey1);
+            ctx1.lineTo(pixpri[prismno].x3 - pagex1, pixpri[prismno].y3 - pagey1);
+            ctx1.lineTo(pixpri[prismno].x4 - pagex1, pixpri[prismno].y4 - pagey1);
+            ctx1.lineTo(pixpri[prismno].x5 - pagex1, pixpri[prismno].y5 - pagey1);
+            ctx1.lineTo(pixpri[prismno].x1 - pagex1, pixpri[prismno].y1 - pagey1);
+            ctx1.stroke();
+            prismno++;
+          }
+          if (prismno < pixpri.length) {
+            ctx1.moveTo(pixpri[prismno].x1 - pagex1 - ppcm, pixpri[prismno].y1 - pagey1);
+            ctx1.lineTo(pixpri[prismno].x1 - pagex1 + ppcm, pixpri[prismno].y1 - pagey1);
+            ctx1.stroke();
+            ctx1.moveTo(pixpri[prismno].x1 - pagex1, pixpri[prismno].y1 - pagey1 - ppcm);
+            ctx1.lineTo(pixpri[prismno].x1 - pagex1, pixpri[prismno].y1 - pagey1 + ppcm);
+            ctx1.stroke();
+            pageno++;
+          }
+          var imgData = can1.toDataURL("image/jpeg", 1.0);
+          pdf1.addImage(imgData, 'JPEG', 0, 0, 27, 19);
+          pdf1.addPage('l', 'cm', [27, 19]);
+        }
+        pdf1.save("prism sections.pdf");
+        //prism 2 face folds
+        var pdf2 = new jsPDF('l', 'cm', [27, 19]);
+        var pageno1 = 0;
+        var j = 0;
+        var offsety1 = 0;
+        while (j < 2 * pixpri.length) {
+          var can2 = document.createElement("CANVAS");
+          can2.id = "can1" + pageno1;
+          can2.width = 27 * ppcm;
+          can2.height = 19 * ppcm;
+          can2.style = "border:1px solid #d3d3d3;";
+          var ctx2 = can2.getContext("2d");
+          ctx2.fillStyle = "white";
+          ctx2.fillRect(0, 0, can2.width, can2.height);
+          ctx2.setLineDash([2.5 * ppcm, can2.width - 5 * ppcm]);
+          ctx2.moveTo(0, 0);
+          ctx2.lineTo(can2.width, 0);
+          ctx2.stroke();
+          while (j < 2 * pixpri.length) {
+            var l;
+            if (j % 2 == 0) {
+              l = pixpri[parseInt(j / 3)].y2 - pixpri[parseInt(j / 3)].y1;
+            } else if (j % 2 == 1) {
+              l = Math.sqrt(Math.pow((pixpri[parseInt(j / 3)].y2 - pixpri[parseInt(j / 3)].y3), 2) + Math.pow((pixpri[parseInt(j / 3)].x2 - pixpri[parseInt(j / 3)].x3), 2));
+            }
+            if (offsety1 + l > can2.height) {
+              break;
+            }
+            ctx2.beginPath();
+            if (j % 2 == 0) {
+              ctx2.setLineDash([0.5 * ppcm, 0.5 * ppcm, 0.5 * ppcm, can2.width - 3 * ppcm]);
+            } else {
+              ctx2.setLineDash([2.5 * ppcm, can2.width - 5 * ppcm]);
+            }
+            ctx2.moveTo(0, offsety1 + l);
+            ctx2.lineTo(can2.width, offsety1 + l);
+            ctx2.stroke();
+            offsety1 = offsety1 + l;
+            j++;
+          }
+          if (j < 2 * pixpri.length) {
+            offsety1 = 0;
+            pageno1++;
+          }
+          var imgData = can2.toDataURL("image/jpeg", 1.0);
+          pdf2.addImage(imgData, 'JPEG', 0, 0, 27, 19);
+          pdf2.addPage('l', 'cm', [27, 19]);
+        }
+        pdf2.save("prism 2 face folds.pdf");
+        // prism 3 face folds
+        var pdf3 = new jsPDF('l', 'cm', [27, 19]);
+        var pageno3 = 0;
+        var j3 = 0;
+        var offsety3 = 0;
+        while (j3 < 3 * pixpri.length) {
+          var can3 = document.createElement("CANVAS");
+          can3.id = "can3" + pageno3;
+          can3.width = 27 * ppcm;
+          can3.height = 19 * ppcm;
+          can3.style = "border:1px solid #d3d3d3;";
+          var ctx3 = can3.getContext("2d");
+          ctx3.fillStyle = "white";
+          ctx3.fillRect(0, 0, can3.width, can3.height);
+          ctx3.setLineDash([2.5 * ppcm, can3.width - 5 * ppcm]);
+          ctx3.moveTo(0, 0);
+          ctx3.lineTo(can3.width, 0);
+          ctx3.stroke();
+          while (j3 < 3 * pixpri.length) {
+            var l3;
+            if (j3 % 3 == 0) {
+              l3 = pixpri[parseInt(j3 / 3)].y2 - pixpri[parseInt(j3 / 3)].y1;
+            } else if (j3 % 3 == 1) {
+              l3 = Math.sqrt(Math.pow((pixpri[parseInt(j3 / 3)].y2 - pixpri[parseInt(j3 / 3)].y3), 2) + Math.pow((pixpri[parseInt(j3 / 3)].x2 - pixpri[parseInt(j3 / 3)].x3), 2));
+            } else {
+              l3 = pixpri[parseInt(j3 / 3)].x3 - pixpri[parseInt(j3 / 3)].x1;
+            }
+            if (offsety3 + l3 > can3.height) {
+              break;
+            }
+            ctx3.beginPath();
+            if (j3 % 3 == 0) {
+              ctx3.setLineDash([0.5 * ppcm, 0.5 * ppcm, 0.5 * ppcm, can3.width - 3 * ppcm]);
+            } else if (j3 % 3 == 1) {
+              ctx3.setLineDash([1 * ppcm, 0.5 * ppcm, 1 * ppcm, can3.width - 5 * ppcm]);
+            } else {
+              ctx3.setLineDash([2.5 * ppcm, can3.width - 5 * ppcm]);
+            }
+            ctx3.moveTo(0, offsety3 + l3);
+            ctx3.lineTo(can3.width, offsety3 + l3);
+            ctx3.stroke();
+            offsety3 = offsety3 + l3;
+            j3++;
+          }
+          if (j3 < 3 * pixpri.length) {
+            offsety3 = 0;
+            pageno3++;
+          }
+          var imgData3 = can3.toDataURL("image/jpeg", 1.0);
+          pdf3.addImage(imgData3, 'JPEG', 0, 0, 27, 19);
+          pdf3.addPage('l', 'cm', [27, 19]);
+        }
+        pdf3.save("prism 3 face folds.pdf");
+        //prism rectangles
+        var pageno4 = 0;
+        var prismno4 = 0;
+        var pdf4 = new jsPDF('l', 'cm', [27, 19]);
+        var offsetx4 = pixpri[0].x1;
+        while (prismno4 < pixpri.length) {
+          var can4 = document.createElement("CANVAS");
+          can4.id = "can4" + pageno4;
+          can4.width = 27 * ppcm;
+          can4.height = 19 * ppcm;
+          can4.style = "border:1px solid #d3d3d3;";
+          var ctx4 = can4.getContext("2d");
+          ctx4.fillStyle = "white";
+          ctx4.fillRect(0, 0, can4.width, can4.height);
+          while (prismno4 < pixpri.length && pixpri[prismno4].x3 - offsetx4 < can4.width) {
+            ctx4.moveTo(pixpri[prismno4].x1 - offsetx4, 0);
+            ctx4.lineTo(pixpri[prismno4].x2 - offsetx4, pixpri[prismno4].y2 - pixpri[prismno4].y1);
+            ctx4.lineTo(pixpri[prismno4].x3 - offsetx4, pixpri[prismno4].y2 - pixpri[prismno4].y1);
+            ctx4.lineTo(pixpri[prismno4].x3 - offsetx4, 0);
+            ctx4.lineTo(pixpri[prismno4].x1 - offsetx4, 0);
+            ctx4.lineTo(pixpri[prismno4].x3 - offsetx4, pixpri[prismno4].y2 - pixpri[prismno4].y1);
+            ctx4.stroke();
+            prismno4++;
+          }
+          if (prismno4 < pixpri.length) {
+            offsetx4 = pixpri[prismno4 - 1].x3;
+            pageno4++;
+          }
+          var imgData4 = can4.toDataURL("image/jpeg", 1.0);
+          pdf4.addImage(imgData4, 'JPEG', 0, 0, 27, 19);
+          pdf4.addPage('l', 'cm', [27, 19]);
+        }
+        pdf4.save("prism rects.pdf");
+      }
+    };
+  </script>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+    // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('button_1', 'click', gwd.download, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('button_1', 'click', gwd.download, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
+</head>
+
+<body class="htmlNoPages">
+  <label id="label_1" class="gwd-label-1w8i">Focal Length (cm)</label>
+  <label id="label_2" class="gwd-label-1exu">Width (cm)</label>
+  <label id="label_3" class="gwd-label-11e1">Focus Size (cm)</label>
+  <label id="label_4" class="gwd-label-ursv">Refractive index</label>
+  <label id="label_5" class="gwd-label-sto2">( 1.33 for water )</label>
+  <button id="button_1" class="gwd-button-4koa">download</button>
+  <label id="label_6" class="gwd-label-10bg">Things to download</label>
+  <input type="checkbox" id="checkbox_2" class="gwd-input-1ry3">
+  <input type="checkbox" id="checkbox_3" class="gwd-input-1hyn">
+  <label id="label_8" class="gwd-label-1mzp">Printable Plans (a4)</label>
+  <label id="label_10" class="gwd-label-10gu">Co-ordinate Data (csv)</label>
+  <label id="label_11" class="gwd-label-1e0i">Simulation File</label>
+  <input type="checkbox" id="checkbox_4" class="gwd-input-1682">
+  <input type="text" id="flength" class="gwd-input-cimm">
+  <input type="text" id="width" class="gwd-input-3aid">
+  <input type="text" id="fsize" class="gwd-input-1bna">
+  <input type="text" id="ref" class="gwd-input-nh3i">
+  <span class="gwd-span-jseq"><a href="https://ricktu288.github.io/ray-optics/simulator/" target="_blank" class="gwd-a-1tig">https://ricktu288.github.io/ray-optics/simulator/</a></span>
+  <input type="checkbox" id="checkbox_5" class="gwd-input-16aj">
+  <label id="label_12" class="gwd-label-1tbx">sketchup Ruby (dome)</label>
+  <label id="label_13" class="gwd-label-16ll">sketchup Ruby ( trough )</label>
+  <input type="checkbox" id="checkbox_6" class="gwd-input-1t9m">
+
+
+</body></html>
